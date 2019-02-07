@@ -49,6 +49,41 @@ ul {
 	display: flex;
 }
 
+.top-slide {
+    background: url(img/slider_bg.jpg);
+}
+
+.top-slide h2 {
+    background-color: #ffea00;
+    display: inline;
+    font-size: 70px;
+    padding: 0 13px;
+    text-transform: uppercase;
+}
+
+.top-slide p {
+    background-color: #414146;
+    display: inline;
+    padding: 0 4px;
+    font-size: 24px;
+}
+
+.top-slide :nth-child(2) {
+    margin-bottom: 10px;
+}
+
+.top-container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
 @media screen and (max-width: 420px) {
 	.header-container {
 		width: 100%;
