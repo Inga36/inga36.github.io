@@ -1,6 +1,7 @@
 body{
 	font-family: 'Poppins', sans-serif;
 }
+
 *{
 	padding: 0;
 	margin: 0;
@@ -76,6 +77,88 @@ ul {
     width: 85%;
     margin: 0 auto;
 }
+
+.specialize-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.specialize-container h3 {
+     font-size: 35px;
+     text-transform: uppercase;
+
+}
+
+.specialize-container p {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.specialize-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-card {
+    background-color: #414146;
+    position: relative;
+    top: -30px;
+}
+
+.first-p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.portfolio {
+    widows: 90%
+    margin: 0 auto;
+    text-align: center;
+}
+
+.portfolio h4 {
+    background-color: #424147;
+    padding: 0 8px;
+    font-size: 18px;
+    display: inline-block;
+    color: yellow;
+    margin-bottom: 30px;
+}
+
+.portfolio  p {
+    color: #424147;
+    font-size: 16px;
+
+}
+
+.toggles button {
+    border: none;
+    color: #424146;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+}
+
+.toggles button:after {
+    content: ' / '
+}
+
+.toggles button:last-child:after {
+    content: '  ';
+}
+
+.posts {
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 0 auto;
+}
+
+
+
+
 
 
 
