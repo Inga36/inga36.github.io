@@ -151,7 +151,7 @@ img{
 
 }
 
-.header .fixed {
+.header.fixed {
   position: fixed;
   top:0;
   left: 0;
@@ -235,6 +235,10 @@ img{
   margin-bottom: calc(15px + 1.95vw);/*38px*/
 }
 
+.advantages__title {
+    text-transform: uppercase;
+}
+
 .advantages__item:nth-child(1) .advantages__title{
   color: rgba(56, 198, 149, 1);
 }
@@ -247,8 +251,199 @@ img{
   color: rgba(254, 185, 96, 1);
 }
 
+.about_us__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.about_us__item {
+    flex: 1 1 450px;
+}
 
+.about_us__image {
+    position: relative;
+    max-width: 555px;
+    z-index: 1;
+}
+
+.about_us__image img {
+    max-height: 700px;
+    object-fit: cover;
+}
+
+.about_us__content {
+    position: relative;
+    z-index: 2;
+    left: -7.56vw;
+    padding: calc(20px + 6.25vw) calc(15px + 5.46vw);
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+}
+
+.about_us__content article {
+    position: relative;
+    z-index: 1;
+}
+
+.about_us__content .lines{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+}
+
+.lines .line{
+    flex: 1 1;
+    height: 3px;
+}
+
+.lines .line:nth-child(1){
+    background-color: rgba(252, 95, 69, 1);
+}
+
+.lines .line:nth-child(2){
+    background-color: rgba(56, 198, 149, 1);
+}
+
+.lines .line:nth-child(3){
+    background-color: rgba(178, 124, 245, 1);
+}
+
+.lines .line:nth-child(4){
+    background-color: rgba(254, 185, 96, 1);
+}
+
+.segments__wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.segments__item {
+    text-align: center;
+    min-width: 250px;
+    flex: 1 1;
+    margin: 0 15px 15px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: calc(15px + 3.51vw) calc(10px + 1.56vw);
+    transition: all .5s;
+}
+
+.segments__item:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+}
+
+.section_portfolio__wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section_portfolio__item{
+    position: relative;
+    flex: 1 1 calc((100% / 3) - 20px);
+    margin: 0 10px 20px;
+    min-width: 290px;
+    max-width: 360px;
+    height: 288px;
+    overflow: hidden;
+}
+
+.section_portfolio__image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    z-index: 1;
+    text-decoration: none;
+    margin: 3px;
+}
+
+.section_team{
+    position: relative;
+    background-color: rgba(247, 247, 247, 1);
+}
+
+.section_team__user_info{
+    display: none;
+}
+
+.section_team__wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section_team__item{
+    flex: 1 1 calc((100% / 4) - 20px);
+    margin: 0 10px 20px;
+    width: 290px;
+    padding: 3px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 10px rgba(0, 0, 0 , .1);
+}
+
+.section_team__user_info{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 50px;
+}
+
+.section_team__user_info__wrapper{
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 10px rgba(0, 0, 0 , .1);
+    margin: 0 10px 20px;
+    padding: calc(15px + 5.07vw) calc(15px + 6.64vw);
+}
+
+.section_team__item:hover .section_team__user_info{
+    display: block;
+}
+
+.section_numbers {
+    background-image: url("../img/Layer 24.png"); /*Как сделать, чтобы картинка бекграйнда сжималась???*/
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.numbers__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.numbers_item {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+.numbers_icon {
+    margin-bottom: 15px;
+}
+
+.work_steps__wrapper {
+
+}
+
+.work_photos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.work_photos img {
+    max-width: 556px;
+    height: 300px;
+}
 
 
 
