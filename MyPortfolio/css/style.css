@@ -633,6 +633,59 @@ img{
     box-shadow: 0 0 20px rgba(0, 0, 0, .3);
 }
 
+.subscribe_section__wrapper {
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.contact_form {
+    background-color: rgba(238, 238, 238, 1) ;
+
+}
+
+.contact_form__wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.input_form {
+    width: 750px;
+}
+
+.contact_form__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+.input_field {
+    text-align: center;
+    border: none;
+    height: 50px;
+    width: 50%;
+    flex: 1 1 300px;
+}
+
+.input_message {
+    width: 100%;
+    border: none;
+    height: 204px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.send {
+    justify-content: center;
+}
+
+
 
 
 
