@@ -143,6 +143,7 @@ img{
   padding-bottom: calc(30px + 9.37vw); /*150px*/
 }
 
+
 .header {
   position: relative;
   z-index: 10;
@@ -213,8 +214,14 @@ img{
   text-transform: uppercase;
   color: rgba(255, 255, 255, 1);
   margin-bottom: calc(25px + 5.07vw);
+    padding: 20px calc(20px + 2.34vw);
+    border-radius: 30px;
+    background-color: rgba(252, 95, 69, 1);
 }
 
+.button:hover {
+    background-color: rgba(56, 198, 149, 1);
+}
 .advantages__wrapper {
   display: flex;
   justify-content: space-around;
